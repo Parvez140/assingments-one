@@ -1,0 +1,130 @@
+body{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+/* common css */
+.text-center{
+    text-align: center;
+}
+.title{
+    font-size: 32px;
+}
+.second-title{
+    font-size: 24px;
+}
+
+#menu{ display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 50px;
+}
+.resume-btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 14px;
+}
+.hero-section{
+    background-image: url(images/Hero-bg.png);
+    height: 652px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.hero-section h1{
+    font-size: 48px;
+}
+.webDevelopment-sec{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+
+}
+.split-section{
+    display: flex;
+    padding: 30px 0;
+}
+.left-div{
+    width: 50%;
+}
+.right-div{
+    width: 50%;
+}
+.target-sec{
+    padding: 50px 0;
+}
+.my-target{
+    display: flex;
+}
+.my-target-card{
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 20px;
+    margin: 20px;
+    width: 364px;
+    height: 240px;
+}
+.my-target-card-title{
+    font-size: 24px;
+}
+.my-target-card-text{
+    font-size: 16px;
+}
+.my-target-card-btn{
+    font-size: 16px;
+    text-decoration: underline;
+}
+.next-target-card{
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+}
+.next-target-card img{
+    width: 94px;
+    height: 108px;
+    margin-right: 15px;
+}
+.support{
+    width: 80%;
+    height: 300px;
+    background: url(images/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.support h2{
+    color: white;
+    font-size: 32px;
+}
+.support p{
+    color: white;
+    font-size: 16px;
+}
+input{
+    height: 57px;
+    width: 548px;
+}
+.input-btn{
+    height: 57px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Azeret Mono", monospace;
+}
+footer{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.footer-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
